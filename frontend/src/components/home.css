@@ -1,0 +1,29 @@
+.home-container {
+    max-width: 1800px;
+    margin: 10px auto;
+}
+
+.pagination-container {
+    max-width: 1200px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+.filter-sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.filter-sort-container>span {
+    margin-left: 30px;
+}
+
+.patient-table-row:hover {
+    color: #FFF;
+    background-color: #89CFF0;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  },
+  "name": "doctor_patient_records_server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nileshagrawal98/Doctor_Patient_Records_Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nileshagrawal98/Doctor_Patient_Records_Server/issues"
+  },
+  "homepage": "https://github.com/nileshagrawal98/Doctor_Patient_Records_Server#readme"
+}

@@ -1,0 +1,24 @@
+.patient-details-container {
+    max-width: 1800px;
+    margin: 30px auto;
+}
+
+.patient-basic-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.patient-medicines-container {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.medicine-list {
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 20px;
+}

@@ -50,7 +50,7 @@ router.get('/authenticate', async (req, res) => {
 router.post('/', async (req, res) => {
 
     try {
-        if (!req.body.name.trim() || !req.body.dob.trim() || !req.body.specialty.trim() || !req.body.email.trim() || !req.body.gender.trim() || !req.body.password) {
+        if (!req.body.name || !req.body.dob || !req.body.specialty || !req.body.email || !req.body.gender || !req.body.password) {
             return res.status(400).send({ status: 'failed', message: 'Required details not provided' });
         }
 
